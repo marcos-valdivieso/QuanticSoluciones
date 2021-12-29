@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+                                    /* ------------inicio------------- */
+.contenedor {
+    height: 50vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: url(../imagenes/fondo-inicio.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.contenedor h1 {
+    font-size: 6.25rem;
+    text-align: center;
+    color: #fff;
+    
+}
+.contenedor .boton {
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px 20px;
+    display: inline-block;
+    color: #fff;
+    background-color: #2271b9; 
+    font-size: 1.5rem;
+}
+
+.contenedor .boton:hover{
+    background-color: #1166b3;
+}
+
+                                    /*-------------fin del inicio---------------------- */
+
+
+
+main{
+    background-color: #bde0f7;
+    background-size: 100vw;
+    font-weight: bold;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(4 auto);
+    margin: 10px 20px;
+
+}
+main{
+    border-radius: 16px;
+}
+
+                    /*------------------------barra de navegacion------------------------ */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2980b9;
+    border-radius: 16px;
+    
+    
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 50%;
+    justify-content: space-between;
+    font-weight: bold;
+    list-style: none;
+    
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+  
+}
+
+.navbar img{
+    margin-left: 2rem;
+}
+
+
+                    /*------------------------fin de la barra de navcegacion ------------------------*/
+
+                    /*------------------------comienza el main index------------------------*/
+
+.indx h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.noticias{
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.noticias article{
+    /* border: solid black 1px; */
+    margin: 10px;
+}
+
+.noticias .art1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.noticias .art2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+.noticias h2{
+    margin: 2rem;
+}
+
+ .noticias img{
+    width: 400px;
+    height: 300px;
+    margin: 2rem;
+}
+
+.noticias div{
+    display: flex;
+    flex-direction: row;
+}
+.noticias p{
+    display: flex;
+    align-items: center;
+}
+
+                                /*-------------------termina el main index-------------------*/
+
+                                /* -------------------main contacto------------------- */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+                                /*-------------------fin del main contacto-------------------*/
+
+                                /*-------------------main servicios-------------------*/
+.imgtam{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+.serv_fl{
+    display: flex;
+    flex-direction: row;
+    text-align:start;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.revers {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+                                      /*---------fin del main servicios-----------*/
+
+                                      /*-------- main conocenos----------------*/
+.maincono{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 1 auto ;
+}  
+
+.grid1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.grid2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.grid3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.maincono_col{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    border: solid #fff 2px;
+    border-radius: 30px;
+}
+
+.maincono_col img{
+    width: 300px;
+    height: 400px;
+}
+
+.maincono_col h3{
+    padding-bottom: 1rem;
+}
+
+.maincono_col p{
+    text-align: center;
+    
+}
+
+.primero h2{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+
+
+
+                                /*-------- fin del main conocenos -------------*/
+
+                                             /*---------footer------------*/
+
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2980b9;
+    height: 150px;
+    border-radius: 16px;
+}
+
+.pie img{
+    margin-left: 2rem ;
+}
+.pie p{
+    margin-left: 20rem;
+}
+                                         /*--------fin del footer----------*/
+
+
